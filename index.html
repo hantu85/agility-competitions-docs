@@ -5,14 +5,39 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      //...
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      name: 'Dokumentacja',
+      hideSidebar: false,
+      themeColor: "#42b983",
+      darkMode: {
+	    dark: {
+    	  background: "#1c2022",
+    	  toggleBtnBg: "#34495e",
+    	  textColor: "#b4b4b4"
+  	    },
+  		light: {
+    	  background: "white",
+    	  toggleBtnBg: "var(--theme-color)",
+    	  textColor: "var(--theme-color)"
+  		}
+	  },
+	  customPageTitle: {
+	    prefix: 'Dokumentacja',
+	    debug: false
+	  }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
 </body>
 </html>
