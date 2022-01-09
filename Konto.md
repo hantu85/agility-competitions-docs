@@ -17,7 +17,7 @@ Utworzenie nowego konta odbywa się poprzez:
     - [x] Akceptuje zasady przetwarzania danych osobowych 
     - [x] Nie jestem robotem
     
-    Jeśli pojawi się okno weryfikacyjne, należy wykonac określone polecenia i zweryfikować użytkownika.
+    Jeśli pojawi się okno weryfikacyjne, należy wykonać określone polecenia i zweryfikować użytkownika.
    
 6. Kliknięcie przycisku `Zarejestruj`
 
