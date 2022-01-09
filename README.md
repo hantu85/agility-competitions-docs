@@ -1,12 +1,12 @@
-## Zawody Agility
+### Zawody Agility
 
 > Dokumentacja użycia dla strony [Zawody Agility](https://zawody.agilife.pl)
 
-## Co to jest?
+### Co to jest?
 
 Strona [Zawody Agility](https://zawody.agilife.pl) jest systemem umożliwiającym organizację zawodów agility. 
 
-## Funkcjonalności
+### Funkcjonalności
 
 * Rejestracja zawodników
 * Wygenerowanie list startowych
